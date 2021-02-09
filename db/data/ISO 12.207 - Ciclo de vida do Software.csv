@@ -1,0 +1,63 @@
+﻿categoria;pai
+ISO 12.207 - Ciclo de vida do Software;
+;
+Processos Contextuais de Sistema;ISO 12.207 - Ciclo de vida do Software
+;
+Processos Contratuais;Processos Contextuais de Sistema
+<em>* Aquisição</em>;Processos Contratuais
+<em>* Fornecimento</em>;Processos Contratuais
+;
+Processos de Projeto;Processos Contextuais de Sistema
+Planejamento de Projeto;Processos de Projeto
+Controle e Avaliação de Projeto;Processos de Projeto
+Gestão de Decisões;Processos de Projeto
+Gestão de Risco;Processos de Projeto
+Gestão de Configuração;Processos de Projeto
+Gestão da Informação;Processos de Projeto
+Medição;Processos de Projeto
+;
+Processos Técnicos;Processos Contextuais de Sistema
+Definição dos Requisitos dos Stakeholders;Processos Técnicos
+Análise dos Requisitos do Sistema;Processos Técnicos
+Projeto de Arquitetura de Sistema;Processos Técnicos
+Implementação;Processos Técnicos
+Integração do Sistema;Processos Técnicos
+Teste de Qualificação de Sistema;Processos Técnicos
+Instalação de Software;Processos Técnicos
+Suporte na Aceitação de Software;Processos Técnicos
+<em>* Operação de Software</em>;Processos Técnicos
+<em>* Manutenção de Software</em>;Processos Técnicos
+Desativação de Software;Processos Técnicos
+;
+Processos Organizacionais Habilitadores de Projeto;Processos Contextuais de Sistema
+Gestão de Modelo de Ciclo de Vida;Processos Organizacionais Habilitadores de Projeto
+Gestão de Infraestrutura;Processos Organizacionais Habilitadores de Projeto
+Gestão de Portfólio de Projetos;Processos Organizacionais Habilitadores de Projeto
+Gestão de Recursos Humanos;Processos Organizacionais Habilitadores de Projeto
+Gestão da Qualidade;Processos Organizacionais Habilitadores de Projeto
+;
+Processos Específicos de Software;ISO 12.207 - Ciclo de vida do Software
+;
+Processos de Implementação de Sw;Processos Específicos de Software
+<em>* Implementação de Software</em>;Processos de Implementação de Sw
+Análise de Requisitos de Software;Processos de Implementação de Sw
+Projeto de Arquitetura de Software;Processos de Implementação de Sw
+Projeto Detalhado de Software;Processos de Implementação de Sw
+Construção de Software;Processos de Implementação de Sw
+Integração de Software;Processos de Implementação de Sw
+Testes de Qualificação de Software;Processos de Implementação de Sw
+;
+Processos de Apoio ao Sw;Processos Específicos de Software
+Gestão de Documentação de Software;Processos de Apoio ao Sw
+Gestão de Configuração de Software;Processos de Apoio ao Sw
+Garantia da Qualidade de Software;Processos de Apoio ao Sw
+Verificação de Software;Processos de Apoio ao Sw
+Validação de Software;Processos de Apoio ao Sw
+Revisão de Software;Processos de Apoio ao Sw
+Auditoria de Software;Processos de Apoio ao Sw
+Resolução de Problemas de Software;Processos de Apoio ao Sw
+;
+Processos de Reuso de Sw;Processos Específicos de Software
+Engenharia de Domínio;Processos de Reuso de Sw
+Gestão de Reúso de Ativos;Processos de Reuso de Sw
+Gestão do Programa de Reúso;Processos de Reuso de Sw

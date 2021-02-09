@@ -1,0 +1,51 @@
+<ng-container *ngIf="!!game; else loading">
+  <h1 class="mat-h1">{{ game.name }}</h1>
+
+  <div fxLayout fxLayoutGap="8px">
+    <button mat-raised-button (click)="validate()" color="primary">
+      <mat-icon>rule</mat-icon>
+      Validar
+    </button>
+
+    <span fxFlex></span>
+
+    <button mat-raised-button (click)="startGame(true)">
+      <mat-icon>done_all</mat-icon>
+      Resolver
+    </button>
+
+    <button mat-raised-button (click)="startGame()" color="warn">
+      <mat-icon>refresh</mat-icon>
+      Reiniciar
+    </button>
+  </div>
+
+  <br />
+
+  <div fxLayout>
+    <!-- items to drag and drop -->
+    <app-drag-area
+      fxFlex="340px"
+      fxLayout
+      [connectedTo]="connectedTo"
+      [containers]="[containers[0]]"
+      [game]="game"
+      [enterPredicate]="enterPredicate"
+      [subtitles]="subtitles"
+    ></app-drag-area>
+
+    <mat-accordion multi="true">
+      <app-recursive-card
+        [game]="game"
+        [containers]="containers | slice: 1"
+        [connectedTo]="connectedTo"
+      ></app-recursive-card>
+    </mat-accordion>
+  </div>
+
+  <br /><br />
+</ng-container>
+
+<ng-template #loading>
+  <mat-spinner></mat-spinner>
+</ng-template>

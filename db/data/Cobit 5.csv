@@ -1,0 +1,132 @@
+﻿categoria;pai
+Cobit 5;
+;
+Processos;Cobit 5
+;
+Governança;Processos
+;
+Domínio Avaliar, Dirigir e Monitorar - EDM;Governança
+;
+Garantir a Definição e Manutenção do Modelo de Governança;Domínio Avaliar, Dirigir e Monitorar - EDM
+Garantir a Realização de Benefícios;Domínio Avaliar, Dirigir e Monitorar - EDM
+Garantir a Otimização do Risco;Domínio Avaliar, Dirigir e Monitorar - EDM
+Garantir a Otimização de Recursos;Domínio Avaliar, Dirigir e Monitorar - EDM
+Garantir a Transparência para as partes interessadas;Domínio Avaliar, Dirigir e Monitorar - EDM
+;
+Gestão;Processos
+;
+Domínio Alinhar, Planejar e Organizar - APO;Gestão
+Domínio Construir, Adquirir e Implementar - BAI;Gestão
+Domínio Entregar, Serviço e Suporte - DSS;Gestão
+Domínio Monitorar, Avaliar e Analisar - MEA;Gestão
+;
+Gerenciar a Estrutura de Gestão de TI;Domínio Alinhar, Planejar e Organizar - APO
+Gerenciar a Estratégia;Domínio Alinhar, Planejar e Organizar - APO
+Gerenciar a Arquitetura da Organização;Domínio Alinhar, Planejar e Organizar - APO
+Gerenciar Inovação;Domínio Alinhar, Planejar e Organizar - APO
+Gerenciar Portfólio;Domínio Alinhar, Planejar e Organizar - APO
+Gerenciar Orçamento e Custos;Domínio Alinhar, Planejar e Organizar - APO
+Gerenciar Recursos Humanos;Domínio Alinhar, Planejar e Organizar - APO
+Gerenciar Relacionamentos;Domínio Alinhar, Planejar e Organizar - APO
+Gerenciar Contratos de Prestação de Serviços;Domínio Alinhar, Planejar e Organizar - APO
+Gerenciar Fornecedores;Domínio Alinhar, Planejar e Organizar - APO
+Gerenciar Qualidade;Domínio Alinhar, Planejar e Organizar - APO
+Gerenciar Riscos;Domínio Alinhar, Planejar e Organizar - APO
+Gerenciar Segurança;Domínio Alinhar, Planejar e Organizar - APO
+;
+Gerenciar Programas e Projetos;Domínio Construir, Adquirir e Implementar - BAI
+Gerenciar Definição de Requisitos;Domínio Construir, Adquirir e Implementar - BAI
+Gerenciar Identificação e Desenvolvimento de Soluções;Domínio Construir, Adquirir e Implementar - BAI
+Gerenciar Disponibilidade e Capacidade;Domínio Construir, Adquirir e Implementar - BAI
+Gerenciar Capacidade de Mudança Organizacional;Domínio Construir, Adquirir e Implementar - BAI
+Gerenciar Mudanças;Domínio Construir, Adquirir e Implementar - BAI
+Gerenciar Aceitação e Transição da Mudança;Domínio Construir, Adquirir e Implementar - BAI
+Gerenciar Conhecimento;Domínio Construir, Adquirir e Implementar - BAI
+Gerenciar Ativos;Domínio Construir, Adquirir e Implementar - BAI
+Gerenciar Configuração;Domínio Construir, Adquirir e Implementar - BAI
+;
+Gerenciar Operações;Domínio Entregar, Serviço e Suporte - DSS
+Gerenciar Solicitações e Incidentes de Serviço;Domínio Entregar, Serviço e Suporte - DSS
+Gerenciar Problemas;Domínio Entregar, Serviço e Suporte - DSS
+Gerenciar Continuidade;Domínio Entregar, Serviço e Suporte - DSS
+Gerenciar Serviços de Segurança;Domínio Entregar, Serviço e Suporte - DSS
+Gerenciar os Controles de Processos de Negócio;Domínio Entregar, Serviço e Suporte - DSS
+;
+Monitorar, Analisar e Avaliar Desempenho e Conformidade;Domínio Monitorar, Avaliar e Analisar - MEA
+Monitorar, Analisar e Avaliar o Sistema de Controle Interno;Domínio Monitorar, Avaliar e Analisar - MEA
+Monitorar, Analisar e Avaliar Conformidade com Requisitos Externos;Domínio Monitorar, Avaliar e Analisar - MEA
+;
+Princípios;Cobit 5
+;
+Satisfazer às necessidades das Partes Interessadas;Princípios
+Cobrir a organização de ponta-a-ponta;Princípios
+Aplicar um framework integrado único;Princípios
+Possibilitar uma visão holística;Princípios
+Separar Governança do Gerenciamento;Princípios
+;
+Habilitadores;Cobit 5
+;
+Princípios, Políticas e Frameworks;Habilitadores
+Processos;Habilitadores
+Estruturas Organizacionais;Habilitadores
+Cultura, Ética e Comportamento;Habilitadores
+Informação;Habilitadores
+Serviços, Infraestrutura e Aplicativos;Habilitadores
+Pessoas, habilidades e Competências;Habilitadores
+;
+Dimensão dos Habilitadores Genéricos;Cobit 5
+;
+Partes Interessadas;Dimensão dos Habilitadores Genéricos
+Objetivos;Dimensão dos Habilitadores Genéricos
+Ciclo de Vida;Dimensão dos Habilitadores Genéricos
+Boas Práticas;Dimensão dos Habilitadores Genéricos
+;
+Cascata de objetivos;Cobit 5
+;
+Necessidades das Partes Interessadas;Cascata de objetivos
+Metas ou objetivos da Organização;Cascata de objetivos
+Metas ou objetivos de TI;Cascata de objetivos
+Metas ou objetivos dos habilitadores;Cascata de objetivos
+;
+Criação de valor para as Partes Interessadas;Cobit 5
+;
+Realização de Benefícios;Criação de valor para as Partes Interessadas
+Otimização de Riscos a níveis aceitáveis;Criação de valor para as Partes Interessadas
+Otimização de Recursos;Criação de valor para as Partes Interessadas
+;
+Critérios de Informação;Cobit 5
+;
+Eficácia;Critérios de Informação
+Eficiência;Critérios de Informação
+Integridade;Critérios de Informação
+Confiabilidade;Critérios de Informação
+Disponibilidade;Critérios de Informação
+Confidencialidade;Critérios de Informação
+Conformidade;Critérios de Informação
+;
+Modelo de Capacidade;Cobit 5
+;
+0- Processo Enexistente ou Incompleto;Modelo de Capacidade
+1- Processo Executado;Modelo de Capacidade
+2- Processo Gerenciado;Modelo de Capacidade
+3- Processo Estabelecido;Modelo de Capacidade
+4- Processo Previsível;Modelo de Capacidade
+5- Processos Otimizado;Modelo de Capacidade
+;
+Processo não foi implementado ou não atingiu seu objetivo;0- Processo Enexistente ou Incompleto
+Processo está implementado e atinge seu propósito;1- Processo Executado
+Processo gerenciado produtos estabelecidos controlados e mantidos;2- Processo Gerenciado
+Processo definido e capaz de atingir seus resultados. Processo criado.;3- Processo Estabelecido
+Processo opera agora dentro dos limites definidos;4- Processo Previsível
+Processo é continuamente melhorado;5- Processos Otimizado
+;
+Conceitos;Cobit 5
+;
+GOVERNANÇA;Conceitos
+;
+Tomada de decisões;GOVERNANÇA
+Define a direção que a organização deve evoluir;GOVERNANÇA
+;
+GESTÃO;Conceitos
+;
+Implementar decisões tomadas;GESTÃO

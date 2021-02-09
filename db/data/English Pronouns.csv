@@ -1,0 +1,51 @@
+﻿categoria;pai
+English Pronouns;
+;
+Personal;English Pronouns
+;
+Subject;Personal
+I;Subject
+you;Subject
+he;Subject
+she;Subject
+it;Subject
+we;Subject
+they;Subject
+;
+Object;Personal
+me;Object
+you;Object
+him;Object
+her;Object
+it;Object
+us;Object
+them;Object
+;
+Possessive;English Pronouns
+;
+Adjectives;Possessive
+my;Adjectives
+your;Adjectives
+his;Adjectives
+her;Adjectives
+its;Adjectives
+our;Adjectives
+their;Adjectives
+;
+Pronouns;Possessive
+mine;Pronouns
+yours;Pronouns
+his;Pronouns
+hers;Pronouns
+ours;Pronouns
+theirs;Pronouns
+;
+Reflexive;English Pronouns
+myself;Reflexive
+yourself;Reflexive
+himself;Reflexive
+herself;Reflexive
+itself;Reflexive
+ourselves;Reflexive
+yourselves;Reflexive
+themselves;Reflexive

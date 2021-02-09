@@ -1,0 +1,49 @@
+﻿categoria;pai
+ISO 9.126 – Qualidade de Software;
+;
+1. Métricas Internas e Externas;ISO 9.126 – Qualidade de Software
+;
+Funcionalidade;1. Métricas Internas e Externas
+Adequação;Funcionalidade
+Acurácia;Funcionalidade
+Interoperabilidade;Funcionalidade
+Segurança de acesso;Funcionalidade
+Conformidade;Funcionalidade
+;
+Confiabilidade;1. Métricas Internas e Externas
+Maturidade;Confiabilidade
+Tolerância a Falhas;Confiabilidade
+Recuperabilidade;Confiabilidade
+Conformidade;Confiabilidade
+;
+Usabilidade;1. Métricas Internas e Externas
+Inteligibilidade;Usabilidade
+Apreensibilidade;Usabilidade
+Operacionalidade;Usabilidade
+Atratividade;Usabilidade
+Conformidade;Usabilidade
+;
+Eficiência;1. Métricas Internas e Externas
+Comportamento em Relação ao Tempo;Eficiência
+Utilização de Recursos;Eficiência
+Conformidade;Eficiência
+;
+Manutenibilidade;1. Métricas Internas e Externas
+Analisabilidade;Manutenibilidade
+Modificabilidade;Manutenibilidade
+Estabilidade;Manutenibilidade
+Testabilidade;Manutenibilidade
+Conformidade;Manutenibilidade
+;
+Portabilidade;1. Métricas Internas e Externas
+Adaptabilidade;Portabilidade
+Capacidade para ser Instalado;Portabilidade
+Coexistência;Portabilidade
+Capacidade para Substituir;Portabilidade
+Conformidade;Portabilidade
+;
+2. Métricas de qualidade em uso;ISO 9.126 – Qualidade de Software
+Eficácia;2. Métricas de qualidade em uso
+Produtividade;2. Métricas de qualidade em uso
+Segurança;2. Métricas de qualidade em uso
+Satisfação;2. Métricas de qualidade em uso

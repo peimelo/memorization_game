@@ -1,0 +1,32 @@
+<ng-container *ngIf="hasItem(game.children); else createPanel">
+  <br />
+  <app-drag-area
+    [connectedTo]="connectedTo"
+    [containers]="containers"
+    [game]="game"
+    [enterPredicate]="enterPredicate"
+    fxLayout
+  ></app-drag-area>
+</ng-container>
+
+<ng-template #createPanel>
+  <mat-expansion-panel expanded>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        {{ game.name }}
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+
+    <div fxLayout="row wrap" fxLayoutGap="16px">
+      <ng-container *ngFor="let child of game.children">
+        <app-recursive-card
+          [game]="child"
+          [containers]="containers"
+          [connectedTo]="connectedTo"
+        ></app-recursive-card>
+      </ng-container>
+    </div>
+  </mat-expansion-panel>
+
+  <br />
+</ng-template>

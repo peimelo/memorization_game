@@ -1,0 +1,44 @@
+﻿categoria;pai
+MPS.BR - MR-MPS-SW;
+;
+Nível de Maturidade A (Em Otimização);MPS.BR - MR-MPS-SW
+Até os Atributos de Processo 5.1 e 5.2;Nível de Maturidade A (Em Otimização)
+;
+Nível de Maturidade B (Gerenciado Quantitativamente);MPS.BR - MR-MPS-SW
+Gerência de Projetos - GPR - Evolução 2;Nível de Maturidade B (Gerenciado Quantitativamente)
+Até os Atributos de Processo 4.1 e 4.2;Nível de Maturidade B (Gerenciado Quantitativamente)
+;
+Nível de Maturidade C (Definido);MPS.BR - MR-MPS-SW
+Gerência de Riscos - GRI;Nível de Maturidade C (Definido)
+<em>Desenvolvimento para Reutilização - DRU</em>;Nível de Maturidade C (Definido)
+Gerência de Decisões - GDE;Nível de Maturidade C (Definido)
+Até os Atributos de Processo 3.1 e 3.2;Nível de Maturidade C (Definido)
+;
+Nível de Maturidade D (Largamente Definido);MPS.BR - MR-MPS-SW
+Verificação - VER;Nível de Maturidade D (Largamente Definido)
+Validação - VAL;Nível de Maturidade D (Largamente Definido)
+Projeto e Construção do Produto - CPC;Nível de Maturidade D (Largamente Definido)
+Integração do Produto - ITP;Nível de Maturidade D (Largamente Definido)
+Desenvolvimento de Requisitos - DRE;Nível de Maturidade D (Largamente Definido)
+Até os Atributos de Processo 3.1 e 3.2;Nível de Maturidade D (Largamente Definido)
+;
+Nível de Maturidade E (Parcialmente Definido);MPS.BR - MR-MPS-SW
+Gerência de Projetos - GPR - Evolução 1;Nível de Maturidade E (Parcialmente Definido)
+Gerência de Reutilização - GRU;Nível de Maturidade E (Parcialmente Definido)
+Gerência de Recursos Humanos – GRH;Nível de Maturidade E (Parcialmente Definido)
+Definição do Processo Organizacional – DFP;Nível de Maturidade E (Parcialmente Definido)
+Avaliação e Melhoria do Processo Organizacional - AMP;Nível de Maturidade E (Parcialmente Definido)
+Até os Atributos de Processo 3.1 e 3.2;Nível de Maturidade E (Parcialmente Definido)
+;
+Nível de Maturidade F (Gerenciado);MPS.BR - MR-MPS-SW
+Medição - MED;Nível de Maturidade F (Gerenciado)
+Garantia da Qualidade - GQA;Nível de Maturidade F (Gerenciado)
+<em>Gerência de Portfólio de Projetos - GPP</em>;Nível de Maturidade F (Gerenciado)
+Gerência de Configuração - GCO;Nível de Maturidade F (Gerenciado)
+<em>Aquisição - AQU</em>;Nível de Maturidade F (Gerenciado)
+Até o Atributo de Processo 2.2;Nível de Maturidade F (Gerenciado)
+;
+Nível de Maturidade G (Parcialmente Gerenciado);MPS.BR - MR-MPS-SW
+Gerência de Requisitos - GRE;Nível de Maturidade G (Parcialmente Gerenciado)
+Gerência de Projetos - GPR;Nível de Maturidade G (Parcialmente Gerenciado)
+Até os Atributos de Processo 1.1 e 2.1;Nível de Maturidade G (Parcialmente Gerenciado)

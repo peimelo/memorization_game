@@ -1,0 +1,37 @@
+<div class="drag-container" *ngIf="container">
+  <div class="section-heading">
+    {{ container.name }} ({{ container.itemList.length }})
+  </div>
+
+  <ng-container *ngFor="let subtitle of subtitles">
+    <p class="subtitle">{{ subtitle.name }}</p>
+  </ng-container>
+
+  <div
+    id="{{ container.id }}"
+    class="item-list"
+    cdkDropList
+    [cdkDropListData]="container.itemList"
+    [cdkDropListConnectedTo]="connectedTo"
+    [cdkDropListEnterPredicate]="enterPredicate(containers)"
+    (cdkDropListDropped)="drop($event)"
+  >
+    <div
+      *ngFor="let item of container.itemList"
+      class="item-box"
+      [class.error]="!item.ok"
+      cdkDrag
+      [cdkDragData]="item"
+      matTooltip="Deveria estar em: {{ item.parentNames.join(', ') }}"
+      [matTooltipDisabled]="item.ok"
+      matTooltipClass="tooltip-red"
+      matTooltipShowDelay="1000"
+    >
+      <div
+        [class.highlight]="item.ok"
+        [class.error]="!item.ok"
+        [innerHTML]="item.name | trustedHtml"
+      ></div>
+    </div>
+  </div>
+</div>

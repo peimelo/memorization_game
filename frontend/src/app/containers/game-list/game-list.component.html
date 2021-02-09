@@ -1,0 +1,19 @@
+<mat-accordion multi>
+  <app-game-panel
+    [title]="'Favoritos'"
+    [categories]="categoryFavorites"
+    (favorite)="favorite($event)"
+  >
+  </app-game-panel>
+
+  <app-game-panel
+    [categories]="categoryNotFavorites"
+    (favorite)="favorite($event)"
+  >
+  </app-game-panel>
+</mat-accordion>
+
+<div *ngIf="categories.length === 0">
+  <h1>Carregando, por favor aguarde ({{ timeRemain }})...</h1>
+  <mat-spinner></mat-spinner>
+</div>

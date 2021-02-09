@@ -1,0 +1,126 @@
+﻿categoria;pai
+Itil v4;
+;
+PRÁTICAS;Itil v4
+;
+Gerenciamento Geral;PRÁTICAS
+;
+Gerenciamento de Arquitetura;Gerenciamento Geral
+Gerenciamento de Conhecimento;Gerenciamento Geral
+Gerenciamento de Equipes e Talentos;Gerenciamento Geral
+Gerenciamento de Estratégia;Gerenciamento Geral
+Gerenciamento de Fornecedores;Gerenciamento Geral
+Gerenciamento de Mudança Organizacional;Gerenciamento Geral
+Gerenciamento de Portfólio;Gerenciamento Geral
+Gerenciamento de Projetos;Gerenciamento Geral
+Gerenciamento de Relacionamentos;Gerenciamento Geral
+Gerenciamento de Riscos;Gerenciamento Geral
+Gerenciamento de Segurança da Informação;Gerenciamento Geral
+Gerenciamento Financeiro de Serviços;Gerenciamento Geral
+Medição e Relatório;Gerenciamento Geral
+Melhoria Contínua;Gerenciamento Geral
+;
+Gerenciamento de Serviços;PRÁTICAS
+;
+Análise de Negócio;Gerenciamento de Serviços
+Central de Serviços;Gerenciamento de Serviços
+Controle de Mudanças;Gerenciamento de Serviços
+Desenho de Serviços;Gerenciamento de Serviços
+Gerenciamento de Ativos de TI;Gerenciamento de Serviços
+Gerenciamento de Capacidade e Desempenho;Gerenciamento de Serviços
+Gerenciamento de Catálogo de Serviços;Gerenciamento de Serviços
+Gerenciamento de Configuração;Gerenciamento de Serviços
+Gerenciamento de Continuidade de Serviços;Gerenciamento de Serviços
+Gerenciamento de Disponibilidade;Gerenciamento de Serviços
+Gerenciamento de Incidentes;Gerenciamento de Serviços
+Gerenciamento de Liberação;Gerenciamento de Serviços
+Gerenciamento de Nível de Serviço;Gerenciamento de Serviços
+Gerenciamento de Problemas;Gerenciamento de Serviços
+Gerenciamento de Requisições de Serviço;Gerenciamento de Serviços
+Monitoramento e Gerenciamento de Eventos ;Gerenciamento de Serviços
+Validação e Teste de Serviço;Gerenciamento de Serviços
+;
+Gerenciamento Técnico;PRÁTICAS
+;
+Gerenciamento de Implantação ou Distribuição;Gerenciamento Técnico
+Gerenciamento de Plataforma e Infraestrutura;Gerenciamento Técnico
+Gerenciamento e Desenvolvimento de Software;Gerenciamento Técnico
+;
+;
+;
+Dimensões;Itil v4
+;
+Pessoas e Organizações;Dimensões
+Informação e Tecnologia;Dimensões
+Parceiros e Fornecedores;Dimensões
+Fluxos de valor e Processos;Dimensões
+;
+;
+;
+Componentes Chave da SVS - Sistema de Valor de Serviço;Itil v4
+;
+Princípios Orientadores;Componentes Chave da SVS - Sistema de Valor de Serviço
+Governança;Componentes Chave da SVS - Sistema de Valor de Serviço
+Cadeia de Valor de Serviço;Componentes Chave da SVS - Sistema de Valor de Serviço
+Práticas;Componentes Chave da SVS - Sistema de Valor de Serviço
+Melhoria Contínua;Componentes Chave da SVS - Sistema de Valor de Serviço
+;
+;
+;
+PRINCÍPIOS ORIENTADORES;Itil v4
+;
+Foco no valor;PRINCÍPIOS ORIENTADORES
+Comece de onde está;PRINCÍPIOS ORIENTADORES
+Progrida iterativamente com feedback;PRINCÍPIOS ORIENTADORES
+Colabore e promova visibilidade;PRINCÍPIOS ORIENTADORES
+Pense e trabalhe holisticamente;PRINCÍPIOS ORIENTADORES
+Mantenha simples e prático;PRINCÍPIOS ORIENTADORES
+Otimize e automatize;PRINCÍPIOS ORIENTADORES
+;
+;
+Atividades da Cadeia de Valor de Serviço;Itil v4
+;
+Planejar;Atividades da Cadeia de Valor de Serviço
+Melhorar/Improve;Atividades da Cadeia de Valor de Serviço
+Engajar;Atividades da Cadeia de Valor de Serviço
+Desenho e Transição;Atividades da Cadeia de Valor de Serviço
+Obter/Construir;Atividades da Cadeia de Valor de Serviço
+Entregar e Apoiar/Suportar;Atividades da Cadeia de Valor de Serviço
+;
+;
+;
+Conceitos;Itil v4
+;
+Utilidade;Conceitos
+Garantia;Conceitos
+;
+Produtos;Conceitos
+Serviços;Conceitos
+;
+Provedor;Conceitos
+Consumidor;Conceitos
+;
+Conceito de Gerenciamento de Serviço;Conceitos
+;
+Gerenciamento do Relacionamento do Serviço;Conceitos
+;
+Supre uma Necessidade;Utilidade
+Serviço adequado ao propósito;Utilidade
+;
+Produto alcança os requisitos;Garantia
+Serviço adequado ao uso;Garantia
+;
+;
+Habilitar a co-criação de valor, sem que o consumir tenha que gerenciar custos específicos e riscos;Serviços
+;
+Projetado para oferecer valor ao consumidor;Produtos
+;
+Gerencia recursos para prover o serviço;Provedor
+;
+Gerencia recursos para usar o serviço;Consumidor
+Este papel é compartilhado entre Cliente, Usuário e Patrocinador;Consumidor
+;
+Conjunto de capacidades organizações para fornecer valor aos clientes;Conceito de Gerenciamento de Serviço
+;
+;
+Assegura co-criação de valor ;Gerenciamento do Relacionamento do Serviço

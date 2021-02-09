@@ -1,0 +1,37 @@
+<mat-expansion-panel expanded class="mback" *ngIf="categories.length">
+  <mat-expansion-panel-header>
+    <mat-panel-title> Jogos {{ title }} </mat-panel-title>
+  </mat-expansion-panel-header>
+
+  <div
+    fxLayout="row wrap"
+    fxLayout.lt-sm="column"
+    fxLayoutAlign="flex-start"
+    fxLayoutGap="32px"
+  >
+    <ng-container *ngFor="let category of categories">
+      <mat-card
+        fxFlex="0 1 calc(33.3% - 32px)"
+        fxFlex.lt-md="0 1 calc(50% - 32px)"
+        fxFlex.lt-sm="100%"
+        routerLink="/games/{{ category.id }}"
+        class="pointer"
+      >
+        <mat-card-header>
+          <mat-card-title>
+            <button
+              mat-icon-button
+              color="warn"
+              (click)="$event.stopPropagation(); favorite.emit(category.id)"
+            >
+              <mat-icon *ngIf="!!title">favorite</mat-icon>
+              <mat-icon *ngIf="!title">favorite_border</mat-icon>
+            </button>
+
+            <span>{{ category.name }}</span>
+          </mat-card-title>
+        </mat-card-header>
+      </mat-card>
+    </ng-container>
+  </div>
+</mat-expansion-panel>

@@ -1,0 +1,11 @@
+{
+  "name": "memorization-game-frontend",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build && cd ..",
+    "deploy": "cp -a frontend/dist/memorization-game-frontend/. public/",
+    "heroku-postbuild": "npm run build && npm run deploy && echo 'Client built!'"
+  }
+}

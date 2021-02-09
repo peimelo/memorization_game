@@ -1,0 +1,156 @@
+<div class="grid-container">
+  <h1 class="mat-h1">Seja bem vindo ao Jogo da Memorização</h1>
+
+  <mat-grid-list [cols]="cols" rowHeight="250px">
+    <mat-grid-tile [colspan]="1" [rowspan]="1">
+      <mat-card class="dashboard-card">
+        <mat-card-header>
+          <div mat-card-avatar>
+            <mat-icon>favorite</mat-icon>
+          </div>
+          <mat-card-title> Gratuito </mat-card-title>
+        </mat-card-header>
+
+        <mat-card-content class="dashboard-card-content">
+          Você não precisa pagar nada e nem se cadastrar. Queremos ajudá-lo a
+          memorizar para seu aprendizado.
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+
+    <mat-grid-tile [colspan]="1" [rowspan]="1">
+      <mat-card class="dashboard-card">
+        <mat-card-header>
+          <div mat-card-avatar>
+            <mat-icon>mobile_friendly</mat-icon>
+          </div>
+          <mat-card-title> Responsivo </mat-card-title>
+        </mat-card-header>
+
+        <mat-card-content class="dashboard-card-content">
+          Você pode acessá-lo do seu computador, tablet ou celular.
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+
+    <mat-grid-tile [colspan]="1" [rowspan]="1">
+      <mat-card class="dashboard-card">
+        <mat-card-header>
+          <div mat-card-avatar>
+            <mat-icon>code</mat-icon>
+          </div>
+          <mat-card-title> Código-fonte aberto </mat-card-title>
+        </mat-card-header>
+
+        <mat-card-content class="dashboard-card-content" fxLayout="column">
+          <div>
+            Você pode ter o código-fonte desta aplicação ou até mesmo colaborar
+            para melhorá-lo.
+          </div>
+
+          <br />
+
+          <a
+            mat-button
+            href="https://github.com/peimelo/memorization_game"
+            target="_blank"
+          >
+            <mat-icon>open_in_new</mat-icon>
+            Memorization Game
+          </a>
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+
+    <mat-grid-tile [colspan]="1" [rowspan]="1">
+      <mat-card class="dashboard-card">
+        <mat-card-header>
+          <div mat-card-avatar>
+            <mat-icon>email</mat-icon>
+          </div>
+          <mat-card-title> Contato </mat-card-title>
+        </mat-card-header>
+
+        <mat-card-content class="dashboard-card-content" fxLayout="column">
+          Envie um e-mail para <strong>suporte@andreiaemelo.com.br</strong> e
+          iremos responder o mais breve possível.
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+
+  <h1 class="mat-h1">Funcionalidades</h1>
+
+  <mat-grid-list [cols]="cols === 4 ? 2 : 1" rowHeight="500px">
+    <mat-grid-tile [colspan]="1" [rowspan]="1">
+      <mat-card class="dashboard-card">
+        <mat-card-header>
+          <div mat-card-avatar>
+            <mat-icon>drag_indicator</mat-icon>
+          </div>
+          <mat-card-title> Arrastar e Soltar </mat-card-title>
+        </mat-card-header>
+
+        <img mat-card-image src="assets/images/drag.png" alt="Validar" />
+        <mat-card-content class="dashboard-card-content">
+          Clique e segure o mouse em cima de um item, arraste-o até o local
+          devido e solte o botão do mouse. Faça isso para todos os itens.
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+
+    <mat-grid-tile [colspan]="1" [rowspan]="1">
+      <mat-card class="dashboard-card">
+        <mat-card-header>
+          <div mat-card-avatar>
+            <mat-icon>rule</mat-icon>
+          </div>
+          <mat-card-title> Validar </mat-card-title>
+        </mat-card-header>
+
+        <img mat-card-image src="assets/images/validate.png" alt="Validar" />
+        <mat-card-content class="dashboard-card-content">
+          Clique no botão <strong>Validar</strong> em qualquer momento para
+          saber o resultado do seu jogo. Os itens errados ficarão em vermelho e
+          uma mensagem irá mostrar os totais. Pare o mouse em cima de um item
+          errado por 1 segundo que uma dica irá mostrar o local correto.
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+
+    <mat-grid-tile [colspan]="1" [rowspan]="1">
+      <mat-card class="dashboard-card">
+        <mat-card-header>
+          <div mat-card-avatar>
+            <mat-icon>done_all</mat-icon>
+          </div>
+          <mat-card-title> Resolver </mat-card-title>
+        </mat-card-header>
+
+        <img mat-card-image src="assets/images/resolve.png" alt="Resolver" />
+        <mat-card-content class="dashboard-card-content">
+          Clique no botão de <strong>Resolver</strong> para que todos os itens
+          sejam colocados em seus devidos lugares.
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+
+    <mat-grid-tile [colspan]="1" [rowspan]="1">
+      <mat-card class="dashboard-card">
+        <mat-card-header>
+          <div mat-card-avatar>
+            <mat-icon>refresh</mat-icon>
+          </div>
+          <mat-card-title> Reiniciar </mat-card-title>
+        </mat-card-header>
+
+        <img mat-card-image src="assets/images/resolve.png" alt="Resolver" />
+        <mat-card-content class="dashboard-card-content">
+          Clique no botão de <strong>Reiniciar</strong> para começar o jogo
+          novamente. Os <strong>Itens para arrastar</strong> serão arrumados de
+          forma aleatória.
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
