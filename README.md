@@ -105,7 +105,7 @@ To configure [CORS](https://github.com/cyu/rack-cors) `origins`, change it in th
 
 \*This endpoint needs the `Authorization` header.
 
-Some examples of files to import in `db/data`.
+Some examples of files to import in [db/data](/db/data) folder.
 
 ## Frontend
 
