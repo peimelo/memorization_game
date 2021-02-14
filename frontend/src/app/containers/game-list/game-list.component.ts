@@ -57,16 +57,18 @@ export class GameListComponent implements OnInit {
   }
 
   private sanitizeFavorites() {
-    const favorites: number[] = [];
+    if (this.categories.length) {
+      const favorites: number[] = [];
 
-    this.favorites.map((favorite) => {
-      if (this.categories.find((category) => category.id === favorite)) {
-        favorites.push(favorite);
-      }
-    });
+      this.favorites.map((favorite) => {
+        if (this.categories.find((category) => category.id === favorite)) {
+          favorites.push(favorite);
+        }
+      });
 
-    this.favorites = favorites;
-    localStorage.setItem('favorites', JSON.stringify(this.favorites));
+      this.favorites = favorites;
+      localStorage.setItem('favorites', JSON.stringify(this.favorites));
+    }
   }
 
   private getLists() {
