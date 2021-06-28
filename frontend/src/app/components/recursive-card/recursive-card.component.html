@@ -1,15 +1,4 @@
-<ng-container *ngIf="hasItem(game.children); else createPanel">
-  <br />
-  <app-drag-area
-    [connectedTo]="connectedTo"
-    [containers]="containers"
-    [game]="game"
-    [enterPredicate]="enterPredicate"
-    fxLayout
-  ></app-drag-area>
-</ng-container>
-
-<ng-template #createPanel>
+<ng-container *ngIf="hasContainer(game.children) && hasItem(game.children)">
   <mat-expansion-panel expanded>
     <mat-expansion-panel-header>
       <mat-panel-title>
@@ -18,6 +7,13 @@
     </mat-expansion-panel-header>
 
     <div fxLayout="row wrap" fxLayoutGap="16px">
+      <app-drag-area
+        [connectedTo]="connectedTo"
+        [containers]="containers"
+        [game]="game"
+        [enterPredicate]="enterPredicate"
+      ></app-drag-area>
+
       <ng-container *ngFor="let child of game.children">
         <app-recursive-card
           [game]="child"
@@ -27,6 +23,39 @@
       </ng-container>
     </div>
   </mat-expansion-panel>
+</ng-container>
 
-  <br />
-</ng-template>
+<ng-container *ngIf="hasContainer(game.children) && !hasItem(game.children)">
+  <mat-expansion-panel expanded>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        {{ game.name }}
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+
+    <div fxLayout="row wrap" fxLayoutGap="16px">
+      <ng-container *ngFor="let child of game.children">
+        <div fxLayout="row wrap" fxLayoutGap="16px">
+          <app-recursive-card
+            [game]="child"
+            [containers]="containers"
+            [connectedTo]="connectedTo"
+          ></app-recursive-card>
+        </div>
+      </ng-container>
+    </div>
+  </mat-expansion-panel>
+</ng-container>
+
+<br />
+
+<ng-container *ngIf="!hasContainer(game.children) && hasItem(game.children)">
+  <div fxLayout="row wrap" fxLayoutGap="16px">
+    <app-drag-area
+      [connectedTo]="connectedTo"
+      [containers]="containers"
+      [game]="game"
+      [enterPredicate]="enterPredicate"
+    ></app-drag-area>
+  </div>
+</ng-container>

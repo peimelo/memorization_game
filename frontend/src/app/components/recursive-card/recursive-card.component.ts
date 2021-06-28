@@ -14,10 +14,6 @@ export class RecursiveCardComponent {
 
   constructor(private categoriesService: CategoriesService) {}
 
-  hasItem(children: Category[]): boolean {
-    return this.categoriesService.hasItem(children);
-  }
-
   enterPredicate(containers: Container[]) {
     let unique = true;
 
@@ -36,5 +32,17 @@ export class RecursiveCardComponent {
 
       return unique;
     };
+  }
+
+  hasContainer(children: Category[]): boolean {
+    return this.categoriesService.hasContainer(children);
+  }
+
+  hasItem(children: Category[]): boolean {
+    return this.categoriesService.hasItem(children);
+  }
+
+  isItem(child: Category): boolean {
+    return this.categoriesService.isItem(child);
   }
 }

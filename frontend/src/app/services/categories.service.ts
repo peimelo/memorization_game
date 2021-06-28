@@ -29,35 +29,6 @@ export class CategoriesService {
     );
   }
 
-  getOne(id: number): Observable<CategoryResponse> {
-    return this.http.get<CategoryResponse>(`${this.url}/${id}`);
-  }
-
-  getParents(children: Category[], containers: Container[]): void {
-    children.map((child) => {
-      if (child.children.length > 0) {
-        if (this.hasItem(child.children)) {
-          containers.push({
-            id: child.id,
-            name: child.name,
-            itemList: [],
-          });
-        }
-        this.getParents(child.children, containers);
-      }
-    });
-  }
-
-  hasItem(children: Category[]): boolean {
-    for (let i = 0; i < children.length; i++) {
-      if (children[i].children.length === 0) {
-        return true;
-      }
-    }
-
-    return false;
-  }
-
   getChildren(
     children: Category[],
     parent: Category,
@@ -94,6 +65,48 @@ export class CategoriesService {
       this.getParentNames(containers[0]);
       this.shuffleArray(containers[0].itemList);
     }
+  }
+
+  getOne(id: number): Observable<CategoryResponse> {
+    return this.http.get<CategoryResponse>(`${this.url}/${id}`);
+  }
+
+  getParents(parent: Category, containers: Container[]): void {
+    if (this.hasItem(parent.children)) {
+      containers.push({
+        id: parent.id,
+        name: parent.name,
+        itemList: [],
+      });
+    }
+
+    parent.children.map((child) => {
+      this.getParents(child, containers);
+    });
+  }
+
+  hasContainer(children: Category[]): boolean {
+    let value = false;
+
+    children.map((child) => {
+      if (child.children.length > 0) {
+        value = true;
+      }
+    });
+
+    return value;
+  }
+
+  hasItem(children: Category[]): boolean {
+    for (let i = 0; i < children.length; i++) {
+      return this.isItem(children[i]);
+    }
+
+    return false;
+  }
+
+  isItem(child: Category): boolean {
+    return child.children.length === 0;
   }
 
   private getParentNames(container: Container) {

@@ -37,35 +37,31 @@ export class GameDetailComponent implements OnInit {
     this.getGame();
   }
 
-  private getGame(): void {
-    this.route.params.subscribe((params) =>
-      this.categoriesService.getOne(+params['id']).subscribe(
-        (game) => {
-          this.game = game.tree[0];
-          this.subtitles = game.subtitles;
+  enterPredicate() {
+    return function () {
+      return true;
+    };
+  }
 
-          this.startGame();
-          this.titleService.setTitle(`${this.game.name} - Jogo da Memorização`);
-        },
-        () => {
-          this.openSnackBar('Jogo não encontrado.');
-          this.router.navigate(['']);
-        }
-      )
-    );
+  getHits(): void {
+    this.containers.slice(1).map((container) => {
+      if (container.itemList.length > 0) {
+        this.checkHits(container);
+      }
+    });
   }
 
   startGame(solve = false): void {
     this.connectedTo = [];
     this.containers = [
       {
-        id: this.game.id,
+        id: 0,
         name: 'Itens para arrastar',
         itemList: [],
       },
     ];
 
-    this.categoriesService.getParents(this.game.children, this.containers);
+    this.categoriesService.getParents(this.game, this.containers);
 
     this.categoriesService.getChildren(
       this.game.children,
@@ -118,14 +114,6 @@ export class GameDetailComponent implements OnInit {
     );
   }
 
-  getHits(): void {
-    this.containers.slice(1).map((container) => {
-      if (container.itemList.length > 0) {
-        this.checkHits(container);
-      }
-    });
-  }
-
   private checkHits(container: Container): void {
     const containerName = container.name.toLowerCase();
 
@@ -152,15 +140,27 @@ export class GameDetailComponent implements OnInit {
     });
   }
 
+  private getGame(): void {
+    this.route.params.subscribe((params) =>
+      this.categoriesService.getOne(+params['id']).subscribe(
+        (game) => {
+          this.game = game.tree[0];
+          this.subtitles = game.subtitles;
+
+          this.startGame();
+          this.titleService.setTitle(`${this.game.name} - Jogo da Memorização`);
+        },
+        () => {
+          this.openSnackBar('Jogo não encontrado.');
+          this.router.navigate(['']);
+        }
+      )
+    );
+  }
+
   private openSnackBar(message: string) {
     this.snackBar.open(message, 'Ok', {
       duration: 5000,
     });
-  }
-
-  enterPredicate() {
-    return function () {
-      return true;
-    };
   }
 }
