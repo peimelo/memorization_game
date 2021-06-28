@@ -23,21 +23,23 @@ export class DragAreaComponent implements OnChanges {
 
   @Input() containers!: Container[];
   @Input() connectedTo!: string[];
-  @Input() game!: Category;
   @Input() enterPredicate: any;
   @Input() subtitles: Identification[] = [];
 
-  ngOnChanges(changes: SimpleChanges) {
+  // private
+  @Input() game!: Category;
+
+  ngOnChanges(changes: SimpleChanges): void {
     if (changes && (changes.game || changes.containers)) {
       this.containers.map((container) => {
-        if (container.id === this.game.id) {
+        if (container.id === this.game.id || container.id === 0) {
           this.container = container;
         }
       });
     }
   }
 
-  drop(event: CdkDragDrop<Item[]>) {
+  drop(event: CdkDragDrop<Item[]>): void {
     if (event.previousContainer === event.container) {
       moveItemInArray(
         event.container.data,

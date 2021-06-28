@@ -1,0 +1,58 @@
+﻿categoria;pai
+MPS.BR_2021 - MR-MPS-SW;
+;
+Nível de Maturidade A (Em Otimização);MPS.BR_2021 - MR-MPS-SW
+Nível de Capacidade: O processo é melhorado continuamente;Nível de Maturidade A (Em Otimização)
+Processos de Projeto;Nível de Maturidade A (Em Otimização)
+Gerência de Projetos - GPR - Evolução 3;Processos de Projeto
+Processos Organizacionais;Nível de Maturidade A (Em Otimização)
+Medição - MED (Evolução 3);Processos Organizacionais
+;
+Nível de Maturidade B (Gerenciado Quantitativamente);MPS.BR_2021 - MR-MPS-SW
+Processos de Projeto;Nível de Maturidade B (Gerenciado Quantitativamente)
+Gerência de Projetos - GPR - Evolução 2;Processos de Projeto
+Processos Organizacionais;MPS.BR_2021 - MR-MPS-SW
+Gerência Organizacional - ORG (Evolução 3);Processos Organizacionais
+Gerência de Processos - GPC (Evolução 2);Processos Organizacionais
+Medição - MED (Evolução 2);Processos Organizacionais
+<em>Aquisição - AQU</em> (Evolução 2);Processos Organizacionais
+Nível de Capacidade: O processo é previsível;Nível de Maturidade B (Gerenciado Quantitativamente)
+;
+Nível de Maturidade C (Totalmente Definido);MPS.BR_2021 - MR-MPS-SW
+Processos Organizacionais;Nível de Maturidade C (Totalmente Definido)
+Gerência Organizacional - ORG (Evolução 2);Processos Organizacionais
+Medição - MED (Evolução 1);Processos Organizacionais
+<em>Aquisição - AQU</em> (Evolução 1);Processos Organizacionais
+Gerência de Decisões - GDE;Processos Organizacionais
+Nível de Capacidade: O processo é definido;Nível de Maturidade C (Totalmente Definido)
+;
+Nível de Maturidade D (Definido);MPS.BR_2021 - MR-MPS-SW
+Processos de Projeto;Nível de Maturidade D (Definido)
+Gerência de Projetos - GPR (Evolução 1);Processos de Projeto
+Engenharia de Requisitos - REQ (Evolução 1) ;Processos de Projeto
+Projeto e Construção do Produto - PCP;Processos de Projeto
+Integração do Produto - ITP;Processos de Projeto
+Verificação e Validação - VV;Processos de Projeto
+Nível de Capacidade: O processo é definido;Nível de Maturidade D (Definido)
+;
+Nível de Maturidade E (Parcialmente Definido);MPS.BR_2021 - MR-MPS-SW
+Processos Organizacionais;Nível de Maturidade E (Parcialmente Definido)
+Gerência de Recursos Humanos – GRH;Processos Organizacionais
+Gerência Organizacional - ORG (Evolução 1);Processos Organizacionais
+Gerência de Processos - GPC (Evolução 1);Processos Organizacionais
+Nível de Capacidade: O processo é definido;Nível de Maturidade E (Parcialmente Definido)
+;
+Nível de Maturidade F (Gerenciados);MPS.BR_2021 - MR-MPS-SW
+Processos Organizacionais;Nível de Maturidade F (Gerenciados)
+Gerência de Configuração - GCO;Processos Organizacionais
+Gerência Organizacional - ORG;Processos Organizacionais
+Gerência de Processos - GPC;Processos Organizacionais
+Medição - MED;Processos Organizacionais
+<em>Aquisição - AQU</em>;Processos Organizacionais
+Nível de Capacidade: A execução do processo e produtos de trabalhos são gerenciados;Nível de Maturidade F (Gerenciados)
+;
+Nível de Maturidade G (Parcialmente Gerenciado);MPS.BR_2021 - MR-MPS-SW
+Processos de Projeto;Nível de Maturidade G (Parcialmente Gerenciado)
+Gerência de Projetos - GPR;Processos de Projeto
+Engenharia de Requisitos - REQ;Processos de Projeto
+Nível de Capacidade: A execução do processo é gerenciada;Nível de Maturidade G (Parcialmente Gerenciado)

@@ -29,3 +29,5 @@
 .firebase/
 
 .DS_Store
+
+.idea/
