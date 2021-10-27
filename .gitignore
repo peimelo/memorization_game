@@ -31,3 +31,6 @@
 .DS_Store
 
 .idea/
+
+# Ignore environment files
+.env.*
