@@ -10,13 +10,13 @@ This project was built with [Ruby on Rails](https://rubyonrails.org/) as API and
   <tr>
     <td>Ruby</td>
     <td>
-      3.0.0
+      3.0.3
     </td>
   </tr>
   <tr>
     <td>Rails</td>
     <td>
-      6.1.1
+      6.1.4.6
     </td>
   </tr>
   <tr>

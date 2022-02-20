@@ -19,7 +19,7 @@ ExceptionNotification.configure do |config|
   # Email notifier sends notifications by email.
   config.add_notifier :email, {
     email_prefix: '[ERROR] ',
-    sender_address: %("Memorization Game" <#{Rails.application.credentials.gmail[:user_name]}>),
+    sender_address: %("Memorization Game" <#{Rails.application.credentials.zoho[:user_name]}>),
     exception_recipients: Rails.application.credentials.exception_recipients
   }
 

@@ -1,5 +1,6 @@
 require 'active_support/core_ext/integer/time'
 
+# rubocop: disable Metrics/BlockLength
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
@@ -117,12 +118,14 @@ Rails.application.configure do
   }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
-    address: 'smtp.gmail.com',
-    port: 587,
-    domain: 'gmail.com',
-    user_name: Rails.application.credentials.gmail[:user_name].to_s,
-    password: Rails.application.credentials.gmail[:password],
-    authentication: 'plain',
+    address: 'smtp.zoho.com',
+    domain: Rails.application.credentials.zoho[:domain],
+    port: 465,
+    user_name: Rails.application.credentials.zoho[:user_name],
+    password: Rails.application.credentials.zoho[:password],
+    authentication: 'login',
+    ssl: true,
+    tls: true,
     enable_starttls_auto: true
   }
 end
